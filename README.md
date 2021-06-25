@@ -7,7 +7,9 @@ Trabalho desenvolvido durante a disciplina de BD2
 # Sumário
 
 ### 1	COMPONENTES<br>
-Integrantes do grupo<br>
+David <br>
+Luiza de Alencar<br>
+Leonardo<br>
 
 
 ### 2	Escolha da base de dados e explicação sobre informações relacionadas <br>
