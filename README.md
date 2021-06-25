@@ -16,18 +16,20 @@ Leonardo<br>
 a) Escolher base de dados com o mínimo de registros solicitado, definição de nome para o projeto a ser executado, explicação do assunto relacionado aos dados e demais informações relativas a base em questão <br>
 
 ### 3 Fast Imersion Canvas <br>
-Inclusão do Fast Imersion Canvas
+![image](https://user-images.githubusercontent.com/66708154/123362267-ca191300-d546-11eb-83a7-833fd3ee94ef.png)
 <br>
 <br>
 ### 4 Fast Modelling Canvas
 <br>
-Inclusão do Fast Modelling Canvas
+![image](https://user-images.githubusercontent.com/66708154/123362317-db621f80-d546-11eb-8976-8a250f89c980.png)
 <br>
 <br>
 
 ### 5 Fast EDA e PPD Canvas
 <br>
-Inclusão do Fast EDA Canvas, Fast PPD Canvas + Inclusão de Pré processamentoe e Análise exploratoria de dados (Jupyter notebook/Colab)
+Inclusão do Fast EDA Canvas
+![image](https://user-images.githubusercontent.com/66708154/123362436-0c425480-d547-11eb-8d8e-abc7b2a51950.png)
+Inclusão de Pré processamentoe e Análise exploratoria de dados (Jupyter notebook/Colab)
 <br>
 <br>
 
