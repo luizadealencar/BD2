@@ -27,8 +27,8 @@ a) Escolher base de dados com o mínimo de registros solicitado, definição de 
 
 ### 5 Fast EDA e PPD Canvas
 <br>
-Inclusão do Fast EDA Canvas
-![image](https://user-images.githubusercontent.com/66708154/123362436-0c425480-d547-11eb-8d8e-abc7b2a51950.png)
+Inclusão do Fast EDA Canvas<br>
+![image](https://user-images.githubusercontent.com/66708154/123362436-0c425480-d547-11eb-8d8e-abc7b2a51950.png)<br>
 Inclusão de Pré processamentoe e Análise exploratoria de dados (Jupyter notebook/Colab)
 <br>
 <br>
