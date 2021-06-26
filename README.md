@@ -19,8 +19,9 @@ a) Escolher base de dados com o mínimo de registros solicitado, definição de 
 
 ### 3 Fast Imersion Canvas <br>
 <br>
-![img](https://github.com/luizadealencar/BD2/blob/f7c4b22695781f0ce72dfefa82e7addec7a9ddae/Fast%20Immersion%20Canvas.png)
+![Preview](https://github.com/luizadealencar/BD2/blob/f7c4b22695781f0ce72dfefa82e7addec7a9ddae/Fast%20Immersion%20Canvas.png)
 <br>
+
 ### 4 Fast Modelling Canvas
 <br>
 
