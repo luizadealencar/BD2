@@ -19,12 +19,12 @@ a) Escolher base de dados com o mínimo de registros solicitado, definição de 
 
 ### 3 Fast Immersion Canvas <br>
 <br>
-![Preview](https://github.com/luizadealencar/BD2/blob/main/Fast%20Immersion%20Canvas.png)
+![alt text](https://github.com/luizadealencar/BD2/blob/main/Fast%20Immersion%20Canvas.png)
 <br>
 
 ### 4 Fast Modelling Canvas
 <br>
-![Preview](https://github.com/luizadealencar/BD2/blob/803f37f47aa4bfafbe166f9ec55b6f01f6828d57/Fast%20Modelling%20Canvas.png)
+![alt text](https://github.com/luizadealencar/BD2/blob/803f37f47aa4bfafbe166f9ec55b6f01f6828d57/Fast%20Modelling%20Canvas.png)
 <br>
 
 ### 5 Fast EDA e PPD Canvas
