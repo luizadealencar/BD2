@@ -25,12 +25,11 @@ a) Escolher base de dados com o mínimo de registros solicitado, definição de 
 ![alt text](https://github.com/luizadealencar/BD2/blob/803f37f47aa4bfafbe166f9ec55b6f01f6828d57/Fast%20Modelling%20Canvas.png)
 
 ### 5 Fast EDA e PPD Canvas
-<br>
-Inclusão do Fast EDA Canvas<br>
+
+Inclusão do Fast EDA Canvas
 ![alt text](https://github.com/luizadealencar/BD2/blob/6ed027ac96f27a5038311b448e8e390b3c300164/PPD.png)
 Inclusão de Pré processamentoe e Análise exploratoria de dados (Jupyter notebook/Colab)
-<br>
-<br>
+
 
 ### 6 Mapa de ETL
 <br>
