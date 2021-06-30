@@ -33,8 +33,8 @@ Inclusão de Pré processamentoe e Análise exploratoria de dados (Jupyter noteb
 
 ### 6 Mapa de ETL
 <br>
-Inclusão do Mapa de ETL
-<br>
+- Redução da base de dados sob o critério de municípios, dividimos a base em dois arquivos: CAGED_GV, referente aos municípios da grande Vitória, e outro com os demais municípios, afim de agilizar o processamento dos dados
+![alt text](https://github.com/luizadealencar/BD2/blob/6ed027ac96f27a5038311b448e8e390b3c300164/ETL_CAGED_GV.png)
 <br>
      
 ### 7	MODELO CONCEITUAL, LOGICO E FISICO - OLTP<br>
