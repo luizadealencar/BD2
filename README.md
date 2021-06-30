@@ -40,10 +40,8 @@ Inclusão de Pré processamentoe e Análise exploratoria de dados (Jupyter noteb
 
      
 ### 7	MODELO CONCEITUAL, LOGICO E FISICO - OLTP<br>
-<br>
-Inclusão dos Modelos OLTP
-<br>
-<br>
+
+![CONCEITUAL_OLTP](https://github.com/luizadealencar/BD2/blob/main/modelo_conceitual_oltp.jpg)
 
 ### 8	MODELO CONCEITUAL, LOGICO E FISICO - OLAP<br>
 
