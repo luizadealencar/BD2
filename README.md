@@ -15,7 +15,6 @@ Luiza de Alencar<br>
 CAGED <br>
 Admissão e Dispensa dos Empregados do ES. <br>
 A planilha mostra as admissões e demissões do estado do Espírito Santo, mostrando os cargos, as horas contratuais, o salário, se foi admitido ou demitido, e informações pessoais como idade, sexo, raça, se possui alguma deficiência, e de qual cidade é. Os anos contabilizados é de 2019 até agosto de 2020. <br>
-a) Escolher base de dados com o mínimo de registros solicitado, definição de nome para o projeto a ser executado, explicação do assunto relacionado aos dados e demais informações relativas a base em questão <br>
 
 ### 3 Fast Immersion Canvas <br>
 ![alt text](https://github.com/luizadealencar/BD2/blob/main/Fast%20Immersion%20Canvas.png)
