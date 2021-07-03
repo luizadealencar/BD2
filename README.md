@@ -46,6 +46,8 @@ Inclusão de Pré processamentoe e Análise exploratoria de dados (Jupyter noteb
 
 Modelo Lógico<br>
 ![LOGICO_OLAP](https://github.com/luizadealencar/BD2/blob/main/modelo_logico.png)
+
+[Script modelo fisíco](https://github.com/luizadealencar/BD2/blob/main/modelo_fisico.sql)
 <br>
 Inclusão dos Modelos OLAP
 TABELAS DIMENSÃO, FATO, MEDIDAS E MÉTRICAS
