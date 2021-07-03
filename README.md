@@ -8,7 +8,7 @@ Trabalho desenvolvido durante a disciplina de BD2
 
 ### 1	COMPONENTES<br>
 David <br>
-Leonardo<br>
+Leonardo Sena<br>
 Luiza de Alencar<br>
 
 ### 2	Escolha da base de dados e explicação sobre informações relacionadas <br>
@@ -44,6 +44,8 @@ Inclusão de Pré processamentoe e Análise exploratoria de dados (Jupyter noteb
 
 ### 8	MODELO CONCEITUAL, LOGICO E FISICO - OLAP<br>
 
+Modelo Lógico<br>
+![LOGICO_OLAP](https://github.com/luizadealencar/BD2/blob/main/modelo_logico.png)
 <br>
 Inclusão dos Modelos OLAP
 TABELAS DIMENSÃO, FATO, MEDIDAS E MÉTRICAS
