@@ -7,7 +7,7 @@ Trabalho desenvolvido durante a disciplina de BD2
 # Sumário
 
 ### 1	COMPONENTES<br>
-David <br>
+David Marques<br>
 Leonardo Sena<br>
 Luiza de Alencar<br>
 
