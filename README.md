@@ -24,12 +24,8 @@ A planilha mostra as admissões e demissões do estado do Espírito Santo, mostr
 ![alt text](https://github.com/luizadealencar/BD2/blob/803f37f47aa4bfafbe166f9ec55b6f01f6828d57/Fast%20Modelling%20Canvas.png)
 
 ### 5 Fast EDA e PPD Canvas
-
-Inclusão do Fast EDA Canvas
-![alt text](https://github.com/luizadealencar/BD2/blob/6ed027ac96f27a5038311b448e8e390b3c300164/PPD.png)<br>
-Inclusão de Pré processamentoe e Análise exploratoria de dados (Jupyter notebook/Colab)<br>
+![alt text](https://github.com/luizadealencar/BD2/blob/6ed027ac96f27a5038311b448e8e390b3c300164/PPD.png)
 [Collab familiarização com a base de dados](https://colab.research.google.com/drive/1-0cFi4NeX6exUe-B8O43pn5n6eMHtC5r?usp=sharing)
-
 
 ### 6 Mapa de ETL
 
@@ -48,13 +44,7 @@ Inclusão de Pré processamentoe e Análise exploratoria de dados (Jupyter noteb
 Modelo Lógico<br>
 ![LOGICO_OLAP](https://github.com/luizadealencar/BD2/blob/main/modelo_logico.png)
 
-[Script modelo fisíco](https://github.com/luizadealencar/BD2/blob/main/modelo_fisico.sql)
-<br>
-Inclusão dos Modelos OLAP
-TABELAS DIMENSÃO, FATO, MEDIDAS E MÉTRICAS
-Implementação de no mínimo 3 dimensões e 1 fato presentes no Mapa de ETL
-<br>
-<br>
+[Script modelo fisíco](https://github.com/luizadealencar/BD2/blob/main/modelo_fisico.sql)<br>
 
 ##   MARCO DE ENTREGA PARTE 01 (Até item 8)
  
