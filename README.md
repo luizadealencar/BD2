@@ -56,9 +56,7 @@ OBS:Lembre que este processo é comumente custoso e complexo, não substime as d
 
 
 #### 9.2	ANÁLISE DE METADADOS, ESTATÍSTICAS, SIZING<br>
-<br>
-[Análise de Metados, Estatísticas e Sizing] (https://github.com/luizadealencar/BD2/blob/main/Metadados%2C%20Estat%C3%ADsticas%20e%20Sizing.pdf)
-<br>
+[Análise de Metados, Estatísticas e Sizing](https://github.com/luizadealencar/BD2/blob/b92738f6f551b9f8126adea3cfa363555ff45eb7/Metadados,%20Estat%C3%ADsticas%20e%20Sizing.pdf)
 
 #### 9.3	Cubos e Dashboards<br>
 <br>
