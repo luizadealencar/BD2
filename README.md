@@ -74,6 +74,8 @@ Inclusão de cubos e dashboards desenvolvidos
     f) Inclusão de tabela mostrando as 10 execuções, excluindo-se o maior e menor tempos para cada consulta e 
     obtendo-se a media dos outros valores como resultado médio final.
 <br>
+
+
 #### 10 Backup do Banco de Dados<br>
         Detalhamento do backup.
         a) Tempo
