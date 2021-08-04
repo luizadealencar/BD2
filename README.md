@@ -46,9 +46,7 @@ Modelo Lógico<br>
 
 [Script modelo fisíco](https://github.com/luizadealencar/BD2/blob/main/modelo_fisico.sql)<br>
 
-##   MARCO DE ENTREGA PARTE 01 (Até item 8)
- 
-### 9 CARGA DE DADOS,ANÁLISE DE METADADOS,ESTATISTICAS, SIZING E INDEXAÇÃO
+### 9 CARGA DE DADOS, ANÁLISE DE METADADOS, ESTATÍSTICAS, SIZING E INDEXAÇÃO
 #### 9.1	CARGA DE DADOS A ANÁLISE DOS RESULTADOS OBTIDOS
 <br>
 Realização de todo processo de ETL (Siga os passos solicitados, preferencialente nas ferramentas recomendadas)
@@ -57,7 +55,7 @@ OBS:Lembre que este processo é comumente custoso e complexo, não substime as d
 <br>
 
 
-#### 9.2	,ESTATISTICAS, SIZING<br>
+#### 9.2	ANÁLISE DE METADADOS, ESTATÍSTICAS, SIZING<br>
 <br>
 Inclusão de análise das estatísticas e Sizing
 <br>
