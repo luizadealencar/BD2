@@ -34,6 +34,13 @@ A planilha mostra as admissões e demissões do estado do Espírito Santo, mostr
 
 ![ETL_CAGED_GV](https://github.com/luizadealencar/BD2/blob/main/ETL_CAGED_GV.png)
 
+# 6.1 Gera dimensões
+
+![ETL_GERA_DIM](https://github.com/luizadealencar/BD2/blob/main/ETL_GERA_DIM.jpg)
+
+# 6.2 Gera fato
+
+![ETL_GERA_FATO](https://github.com/luizadealencar/BD2/blob/main/ETL_GERA_FATO.jpg)
      
 ### 7	MODELO CONCEITUAL, LOGICO E FISICO - OLTP<br>
 
