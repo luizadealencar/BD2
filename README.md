@@ -33,14 +33,6 @@ A planilha mostra as admissões e demissões do estado do Espírito Santo, mostr
 - Neste ETL foi realizado um trim de todos os campos de texto e setado os valores iguais a "" (string vazia) para null
 
 ![ETL_CAGED_GV](https://github.com/luizadealencar/BD2/blob/main/ETL_CAGED_GV.png)
-
-##### 6.1 Gera dimensões
-
-![ETL_GERA_DIM](https://github.com/luizadealencar/BD2/blob/main/ETL_GERA_DIM.jpg)
-
-##### 6.2 Gera fato
-
-![ETL_GERA_FATO](https://github.com/luizadealencar/BD2/blob/main/ETL_GERA_FATO.jpg)
      
 ### 7	MODELO CONCEITUAL, LOGICO E FISICO - OLTP<br>
 
@@ -55,12 +47,24 @@ Modelo Lógico<br>
 
 ### 9 CARGA DE DADOS, ANÁLISE DE METADADOS, ESTATÍSTICAS, SIZING E INDEXAÇÃO
 #### 9.1	CARGA DE DADOS A ANÁLISE DOS RESULTADOS OBTIDOS
+
 <br>
 Realização de todo processo de ETL (Siga os passos solicitados, preferencialente nas ferramentas recomendadas)
 OBS:Lembre que este processo é comumente custoso e complexo, não substime as dificuldades implícitas. 
 <br>
 <br>
 
+##### 9.1.1 Conecimento, extração e limpeza dos dados
+
+[Collab notebook](https://colab.research.google.com/drive/1-0cFi4NeX6exUe-B8O43pn5n6eMHtC5r?usp=sharing)
+
+##### 9.1.2 Gera dimensões
+
+![ETL_GERA_DIM](https://github.com/luizadealencar/BD2/blob/main/ETL_GERA_DIM.jpg)
+
+##### 9.1.3 Gera fato
+
+![ETL_GERA_FATO](https://github.com/luizadealencar/BD2/blob/main/ETL_GERA_FATO.jpg)
 
 #### 9.2	ANÁLISE DE METADADOS, ESTATÍSTICAS, SIZING<br>
 [Análise de Metados, Estatísticas e Sizing](https://github.com/luizadealencar/BD2/blob/b92738f6f551b9f8126adea3cfa363555ff45eb7/Metadados,%20Estat%C3%ADsticas%20e%20Sizing.pdf)
