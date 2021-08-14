@@ -47,14 +47,7 @@ Modelo Lógico<br>
 
 ### 9 CARGA DE DADOS, ANÁLISE DE METADADOS, ESTATÍSTICAS, SIZING E INDEXAÇÃO
 #### 9.1	CARGA DE DADOS A ANÁLISE DOS RESULTADOS OBTIDOS
-
-<br>
-Realização de todo processo de ETL (Siga os passos solicitados, preferencialente nas ferramentas recomendadas)
-OBS:Lembre que este processo é comumente custoso e complexo, não substime as dificuldades implícitas. 
-<br>
-<br>
-
-##### 9.1.1 Conecimento, extração e limpeza dos dados
+##### 9.1.1 Conhecimento, extração e limpeza dos dados
 
 [Collab notebook](https://colab.research.google.com/drive/1-0cFi4NeX6exUe-B8O43pn5n6eMHtC5r?usp=sharing)
 
