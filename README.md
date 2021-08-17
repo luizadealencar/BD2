@@ -95,8 +95,10 @@ Inclusão de cubos e dashboards desenvolvidos
 ![PG_DUMP_SIZE](https://github.com/luizadealencar/BD2/blob/main/pg_dump_size.png)
 
 - Teste de restauração (backup) <br>
-![PG_RESTORE_DUMP](https://github.com/luizadealencar/BD2/blob/main/pg_restore_dump.png)
-    
+[DW_CAGED_DUMP](https://github.com/luizadealencar/BD2/blob/main/dw_caged_bkp.dump)
+
+ - Tempo para restauração <br>
+![PG_RESTORE_DUMP](https://github.com/luizadealencar/BD2/blob/main/pg_restore_dump.png)   
 <br>
 
 ##   MARCO DE ENTREGA PARTE 02 (Até item 10)
