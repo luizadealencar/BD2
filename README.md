@@ -89,7 +89,10 @@ Inclusão de cubos e dashboards desenvolvidos
         e) Teste de restauração (script sql)
         f) Tempo para restauração (script sql)
 - Tempo
-![PG_DUMP_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_dump_time)    
+![PG_DUMP_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_dump_time)
+
+- Tamanho <br>
+![PG_DUMP_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_dump_size.png)
     
 <br>
 
