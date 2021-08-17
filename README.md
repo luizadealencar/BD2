@@ -88,6 +88,9 @@ Inclusão de cubos e dashboards desenvolvidos
         d) Tempo para restauração
         e) Teste de restauração (script sql)
         f) Tempo para restauração (script sql)
+- Tempo
+![PG_DUMP_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_dump_time)    
+    
 <br>
 
 ##   MARCO DE ENTREGA PARTE 02 (Até item 10)
