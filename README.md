@@ -103,6 +103,11 @@ Inclusão de cubos e dashboards desenvolvidos
 - Teste de restauração (script sql) <br>
 [DW_CAGED_BKP_SQL](https://github.com/luizadealencar/BD2/blob/main/dw_caged_bkp.sql)
 
+- Tempo para restauração (script sql) <br>
+![PG_RESTORE_COMMAND](https://github.com/luizadealencar/BD2/blob/main/pg_restore_sql_command.png) <br>
+![PG_RESTORE_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_restore_sql_time.png)
+
+
 <br>
 
 ##   MARCO DE ENTREGA PARTE 02 (Até item 10)
