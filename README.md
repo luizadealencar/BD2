@@ -81,32 +81,24 @@ Inclusão de cubos e dashboards desenvolvidos
 
 
 #### 10 Backup do Banco de Dados<br>
-        Detalhamento do backup.
-        a) Tempo
-        b) Tamanho
-        c) Teste de restauração (backup)
-        d) Tempo para restauração
-        e) Teste de restauração (script sql)
-        f) Tempo para restauração (script sql)
-- Tempo
+#### a) Tempo
 ![PG_DUMP_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_dump_time)
 
-- Tamanho <br>
+#### b) Tamanho <br>
 ![PG_DUMP_SIZE](https://github.com/luizadealencar/BD2/blob/main/pg_dump_size.png)
 
-- Teste de restauração (backup) <br>
+#### c) Teste de restauração (backup) <br>
 [DW_CAGED_DUMP](https://github.com/luizadealencar/BD2/blob/main/dw_caged_bkp.dump)
 
- - Tempo para restauração <br>
+#### d) Tempo para restauração <br>
 ![PG_RESTORE_DUMP](https://github.com/luizadealencar/BD2/blob/main/pg_restore_dump.png)
 
-- Teste de restauração (script sql) <br>
+#### e) Teste de restauração (script sql) <br>
 [DW_CAGED_BKP_SQL](https://github.com/luizadealencar/BD2/blob/main/dw_caged_bkp.sql)
 
-- Tempo para restauração (script sql) <br>
+#### f) Tempo para restauração (script sql) <br>
 ![PG_RESTORE_COMMAND](https://github.com/luizadealencar/BD2/blob/main/pg_restore_sql_command.png) <br>
 ![PG_RESTORE_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_restore_sql_time.png)
-
 
 <br>
 
