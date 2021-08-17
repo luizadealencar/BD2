@@ -98,7 +98,11 @@ Inclusão de cubos e dashboards desenvolvidos
 [DW_CAGED_DUMP](https://github.com/luizadealencar/BD2/blob/main/dw_caged_bkp.dump)
 
  - Tempo para restauração <br>
-![PG_RESTORE_DUMP](https://github.com/luizadealencar/BD2/blob/main/pg_restore_dump.png)   
+![PG_RESTORE_DUMP](https://github.com/luizadealencar/BD2/blob/main/pg_restore_dump.png)
+
+- Teste de restauração (script sql) <br>
+[DW_CAGED_DUMP](https://github.com/luizadealencar/BD2/blob/main/dw_caged_bkp.sql)
+
 <br>
 
 ##   MARCO DE ENTREGA PARTE 02 (Até item 10)
