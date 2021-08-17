@@ -101,7 +101,7 @@ Inclusão de cubos e dashboards desenvolvidos
 ![PG_RESTORE_DUMP](https://github.com/luizadealencar/BD2/blob/main/pg_restore_dump.png)
 
 - Teste de restauração (script sql) <br>
-[DW_CAGED_DUMP](https://github.com/luizadealencar/BD2/blob/main/dw_caged_bkp.sql)
+[DW_CAGED_BKP_SQL](https://github.com/luizadealencar/BD2/blob/main/dw_caged_bkp.sql)
 
 <br>
 
