@@ -92,7 +92,10 @@ Inclusão de cubos e dashboards desenvolvidos
 ![PG_DUMP_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_dump_time)
 
 - Tamanho <br>
-![PG_DUMP_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_dump_size.png)
+![PG_DUMP_SIZE](https://github.com/luizadealencar/BD2/blob/main/pg_dump_size.png)
+
+- Teste de restauração (backup) <br>
+![PG_RESTORE_DUMP](https://github.com/luizadealencar/BD2/blob/main/pg_restore_dump.png)
     
 <br>
 
