@@ -64,7 +64,7 @@ Modelo Lógico<br>
 
 #### 9.3	Cubos e Dashboards<br>
 <br>
-Inclusão de cubos e dashboards desenvolvidos
+[Cubos e Dimensões com Atoti](https://github.com/luizadealencar/BD2/blob/main/atoti-caged.ipynb)
 <br>
 <br>
 
