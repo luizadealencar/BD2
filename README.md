@@ -63,9 +63,9 @@ Modelo Lógico<br>
 [Análise de Metados, Estatísticas e Sizing](https://github.com/luizadealencar/BD2/blob/b92738f6f551b9f8126adea3cfa363555ff45eb7/Metadados,%20Estat%C3%ADsticas%20e%20Sizing.pdf)
 
 #### 9.3	Cubos e Dashboards<br>
-<br>
 [Cubos e Dimensões com Atoti](https://github.com/luizadealencar/BD2/blob/main/atoti-caged.ipynb)
-<br>
+###### Perguntas respondidas com o Cubo gerado
+![Perguntas respondidas com atoti](https://github.com/luizadealencar/BD2/blob/main/atoti-perguntas.png)
 <br>
 
 
