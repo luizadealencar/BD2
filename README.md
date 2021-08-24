@@ -70,7 +70,7 @@ Modelo Lógico<br>
 
 
 #### 9.4	APLICAÇAO DE ÍNDICES E TESTES DE PERFORMANCE<br>
-##### 9.4.1 Criação dos indices
+##### 9.4.1 Criação dos índices
 ``` sql
 create index idx_jnk_caged_horascontratuais on dim_jnk_caged(horascontratuais);
 create index idx_jnk_person_charac_desc_instr on dim_jnk_person_charac(desc_instr);
@@ -78,8 +78,8 @@ create index idx_jnk_person_charac_desc_raca on dim_jnk_person_charac(desc_raca)
 create index idx_jnk_locale_cod_municipio on dim_jnk_locale(municipio);
 create index idx_date_year on dim_date(year);
 ```
-Obs: Implementamos esses indíces, pois acreditamos que são as colunas "chaves" para as perguntas que podemos responder com a base de dados do CAGED.
-Utilizamos o tipo de indíce B-TREE para realizar filtros com os valores das colunas, assim acessando os dados com o mesmo valor mais rapidamente, otimizando nossa consulta.
+Obs: Implementamos esses índices, pois acreditamos que são as colunas "chaves" para as perguntas que podemos responder com a base de dados do CAGED.
+Utilizamos o tipo de índice B-TREE para realizar filtros com os valores das colunas, assim acessando os dados com o mesmo valor mais rapidamente, otimizando nossa consulta.
 
 ##### 9.4.2 Performance esperada VS Resultados obtidos
 Consulta
@@ -94,14 +94,14 @@ and dim_date."year" = 2019
 and dim_jnk_locale.municipio LIKE 'Vitoria'
 ```
 
-| Tabela    | Sem Indice | Com Indice |
+| Tabela    | Sem Índice | Com Índice |
 |-----------|------------|------------|
 | planejado | 800ms     | 600ms      |
 | execução  | 454ms      | 232ms     |
 
 
 ##### 9.4.3 Tabela de Resultados
-**Sem indice**
+**Sem Índice**
 ``` sql
 EXPLAIN (FORMAT JSON) select * from fato_registro 
 inner join dim_jnk_person_charac on fato_registro.dim_jnk_person_charac = dim_jnk_person_charac.dim_jnk_person_charac
@@ -114,7 +114,7 @@ and dim_jnk_locale.municipio LIKE 'Vitoria'
 ```
 ![Explain sem indice](https://github.com/luizadealencar/BD2/blob/main/explain_plan_no_indx.svg)
 
-**Com indice**
+**Com Índice**
 ``` sql
 EXPLAIN (FORMAT JSON) select * from fato_registro 
 inner join dim_jnk_person_charac on fato_registro.dim_jnk_person_charac = dim_jnk_person_charac.dim_jnk_person_charac
@@ -130,8 +130,8 @@ and dim_jnk_locale.municipio LIKE 'Vitoria'
 
 | Tabela    |   01   |   02  |   03   |  04   | 05     | 06    | 07     | 08    | 09     | 10 | med |
 |-----------|--------|-------|--------|-------|--------|-------|--------|-------|---------|--------|-----|
-| Sem indice | 405ms | 441ms | 406ms | 415ms | 468ms | 524ms | 412ms | 464ms | 484ms | 354ms | 437ms |
-| Com indice | 284ms | 282ms | 290ms | 238ms | 277ms | 294ms | 229ms | 232ms | 300ms | 289ms | 273,25ms |
+| Sem Índice | 405ms | 441ms | 406ms | 415ms | 468ms | 524ms | 412ms | 464ms | 484ms | 354ms | 437ms |
+| Com Índice | 284ms | 282ms | 290ms | 238ms | 277ms | 294ms | 229ms | 232ms | 300ms | 289ms | 273,25ms |
 
 ##### 9.4.4 Consultas
 ``` sql
