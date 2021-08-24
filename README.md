@@ -1,7 +1,7 @@
 # TrabalhoBD2
 
 
-# TRABALHO 01 : Título do trabalho
+# TRABALHO 01 : CAGED
 Trabalho desenvolvido durante a disciplina de BD2
  
 # Sumário
