@@ -105,12 +105,42 @@ and dim_jnk_locale.municipio LIKE 'Vitoria'
 
 | Tabela    | Sem Indice | Com Indice |
 |-----------|------------|------------|
-| planejado | 1000ms     | 600ms      |
-| execução  | 829ms      | 572ms      |
+| planejado | 800ms     | 600ms      |
+| execução  | 454ms      | 232ms     |
 
 
 ##### 9.4.3 Tabela de Resultados
+**Sem indice**
+``` sql
+EXPLAIN (FORMAT JSON) select * from fato_registro 
+inner join dim_jnk_person_charac on fato_registro.dim_jnk_person_charac = dim_jnk_person_charac.dim_jnk_person_charac
+inner join dim_jnk_locale on fato_registro.dim_jnk_locale_cod = dim_jnk_locale.dim_jnk_locale_cod
+inner join dim_date on fato_registro.dim_date_cod = dim_date.dim_date_cod
+inner join dim_jnk_caged on fato_registro.dim_jnk_caged_cod = dim_jnk_caged.dim_jnk_caged_cod
+where dim_jnk_caged.horascontratuais = 40 
+and dim_date."year" = 2019
+and dim_jnk_locale.municipio LIKE 'Vitoria'
+```
+![Explain sem indice](https://github.com/luizadealencar/BD2/blob/main/explain_plan_no_indx.svg)
 
+**Com indice**
+``` sql
+EXPLAIN (FORMAT JSON) select * from fato_registro 
+inner join dim_jnk_person_charac on fato_registro.dim_jnk_person_charac = dim_jnk_person_charac.dim_jnk_person_charac
+inner join dim_jnk_locale on fato_registro.dim_jnk_locale_cod = dim_jnk_locale.dim_jnk_locale_cod
+inner join dim_date on fato_registro.dim_date_cod = dim_date.dim_date_cod
+inner join dim_jnk_caged on fato_registro.dim_jnk_caged_cod = dim_jnk_caged.dim_jnk_caged_cod
+where dim_jnk_caged.horascontratuais = 40 
+and dim_date."year" = 2019
+and dim_jnk_locale.municipio LIKE 'Vitoria'
+```
+![Explain com indice](https://github.com/luizadealencar/BD2/blob/main/explain_plan_with_indx.svg)
+
+
+| Tabela    |   01   |   02  |   03   |  04   | 05     | 06    | 07     | 08    | 09     | 10 | med |
+|-----------|--------|-------|--------|-------|--------|-------|--------|-------|---------|--------|-----|
+| Sem indice | 405ms | 441ms | 406ms | 415ms | 468ms | 524ms | 412ms | 464ms | 484ms | 354ms | 437ms |
+| Com indice | 284ms | 282ms | 290ms | 238ms | 277ms | 294ms | 229ms | 232ms | 300ms | 289ms | 273,25ms |
 
 ##### 9.4.4 Consultas
 ``` sql
@@ -143,10 +173,6 @@ inner join dim_jnk_caged on fato_registro.dim_jnk_caged_cod = dim_jnk_caged.dim_
 where dim_jnk_person_charac.desc_raca LIKE 'Preta'
 and dim_jnk_person_charac.desc_instr LIKE 'Médio Completo'
 ```
-
-##### 9.4.5 Explain
-
-##### 9.4.5 Resultado médio final
 
 #### 10 Backup do Banco de Dados<br>
 #### a) Tempo
