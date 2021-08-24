@@ -70,7 +70,7 @@ Modelo Lógico<br>
 
 
 #### 9.4	APLICAÇAO DE ÍNDICES E TESTES DE PERFORMANCE<br>
-    a) Lista de índices, tipos de índices com explicação de porque foram implementados nas consultas 
+    a) Lista de índices, tipos de índices com explicação de porque foram implementados nas consultas     
     b) Performance esperada VS Resultados obtidos
     c) Tabela de resultados comparando velocidades antes e depois da aplicação dos índices (constando velocidade esperada com planejamento, sem indice e com índice Vs velocidade de execucao real com índice e sem índice).
     d) Escolher as consultas mais complexas para serem analisadas (consultas com menos de 2 joins não serão aceitas)
@@ -79,6 +79,74 @@ Modelo Lógico<br>
     obtendo-se a media dos outros valores como resultado médio final.
 <br>
 
+##### 9.4.1 Criação dos indices
+``` sql
+create index idx_jnk_caged_horascontratuais on dim_jnk_caged(horascontratuais);
+create index idx_jnk_person_charac_desc_instr on dim_jnk_person_charac(desc_instr);
+create index idx_jnk_person_charac_desc_raca on dim_jnk_person_charac(desc_raca);
+create index idx_jnk_locale_cod_municipio on dim_jnk_locale(municipio);
+create index idx_date_year on dim_date(year);
+```
+Obs: Implementamos esses indíces, pois acreditamos que são as colunas "chaves" para as perguntas que podemos responder com a base de dados do CAGED.
+Utilizamos o tipo de indíce B-TREE para realizar filtros com os valores das colunas, assim acessando os dados com o mesmo valor mais rapidamente, otimizando nossa consulta.
+
+##### 9.4.2 Performance esperada VS Resultados obtidos
+Consulta
+``` sql
+select * from fato_registro 
+inner join dim_jnk_person_charac on fato_registro.dim_jnk_person_charac = dim_jnk_person_charac.dim_jnk_person_charac
+inner join dim_jnk_locale on fato_registro.dim_jnk_locale_cod = dim_jnk_locale.dim_jnk_locale_cod
+inner join dim_date on fato_registro.dim_date_cod = dim_date.dim_date_cod
+inner join dim_jnk_caged on fato_registro.dim_jnk_caged_cod = dim_jnk_caged.dim_jnk_caged_cod
+where dim_jnk_caged.horascontratuais = 40 
+and dim_date."year" = 2019
+and dim_jnk_locale.municipio LIKE 'Vitoria'
+```
+
+| Tabela    | Sem Indice | Com Indice |
+|-----------|------------|------------|
+| planejado | 1000ms     | 600ms      |
+| execução  | 829ms      | 572ms      |
+
+
+##### 9.4.3 Tabela de Resultados
+
+
+##### 9.4.4 Consultas
+``` sql
+select * from fato_registro 
+inner join dim_jnk_person_charac on fato_registro.dim_jnk_person_charac = dim_jnk_person_charac.dim_jnk_person_charac
+inner join dim_jnk_locale on fato_registro.dim_jnk_locale_cod = dim_jnk_locale.dim_jnk_locale_cod
+inner join dim_date on fato_registro.dim_date_cod = dim_date.dim_date_cod
+inner join dim_jnk_caged on fato_registro.dim_jnk_caged_cod = dim_jnk_caged.dim_jnk_caged_cod
+where dim_jnk_caged.horascontratuais = 40 
+and dim_date."year" = 2019
+and dim_jnk_locale.municipio LIKE 'Vitoria'
+```
+
+``` sql
+select * from fato_registro 
+inner join dim_jnk_person_charac on fato_registro.dim_jnk_person_charac = dim_jnk_person_charac.dim_jnk_person_charac
+inner join dim_jnk_locale on fato_registro.dim_jnk_locale_cod = dim_jnk_locale.dim_jnk_locale_cod
+inner join dim_date on fato_registro.dim_date_cod = dim_date.dim_date_cod
+inner join dim_jnk_caged on fato_registro.dim_jnk_caged_cod = dim_jnk_caged.dim_jnk_caged_cod
+where dim_jnk_person_charac.desc_raca LIKE 'Preta'
+and fato_registro.saldo = 1
+```
+
+``` sql
+select * from fato_registro 
+inner join dim_jnk_person_charac on fato_registro.dim_jnk_person_charac = dim_jnk_person_charac.dim_jnk_person_charac
+inner join dim_jnk_locale on fato_registro.dim_jnk_locale_cod = dim_jnk_locale.dim_jnk_locale_cod
+inner join dim_date on fato_registro.dim_date_cod = dim_date.dim_date_cod
+inner join dim_jnk_caged on fato_registro.dim_jnk_caged_cod = dim_jnk_caged.dim_jnk_caged_cod
+where dim_jnk_person_charac.desc_raca LIKE 'Preta'
+and dim_jnk_person_charac.desc_instr LIKE 'Médio Completo'
+```
+
+##### 9.4.5 Explain
+
+##### 9.4.5 Resultado médio final
 
 #### 10 Backup do Banco de Dados<br>
 #### a) Tempo
