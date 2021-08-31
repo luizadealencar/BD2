@@ -208,7 +208,9 @@ Scikit learning Map : http://scikit-learn.org/stable/tutorial/machine_learning_m
 Machine learning in Python with scikit-learn: https://www.youtube.com/playlist?list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A
 
 
-
+[Mineração de dados em PDF](https://github.com/luizadealencar/BD2/blob/f9eaad6366f17f444e3419273169472103ae1d7a/Data%20Mining.pdf)
+[Mineração de dados no COLAB](https://colab.research.google.com/drive/1XTvMnCrGsaCgdBGnddfvYCSZ7CV2bQ3_?usp=sharing)
+[Mineração de dados em IPYNB](https://github.com/luizadealencar/BD2/blob/3916ed4909d537b8206448c7b95e1ac683799f0e/mineracao_caged.ipynb)
 
 
 
