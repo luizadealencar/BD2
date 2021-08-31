@@ -185,8 +185,6 @@ and dim_jnk_person_charac.desc_instr LIKE 'Médio Completo'
 ![PG_RESTORE_COMMAND](https://github.com/luizadealencar/BD2/blob/main/pg_restore_sql_command.png) <br>
 ![PG_RESTORE_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_restore_sql_time.png)
 
-<br>
-
 ### 11 MINERAÇÃO DE DADOS
 [Mineração de dados em PDF](https://github.com/luizadealencar/BD2/blob/f9eaad6366f17f444e3419273169472103ae1d7a/Data%20Mining.pdf)
 <br>
