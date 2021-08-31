@@ -187,32 +187,12 @@ and dim_jnk_person_charac.desc_instr LIKE 'Médio Completo'
 
 <br>
 
-##   MARCO DE ENTREGA PARTE 02 (Até item 10)
-
 ### 11 MINERAÇÃO DE DADOS
-
-a) Tópicos introdutórios
-* Explicação/Fundamentação teórica sobre o método, objetivos e restrições! (formato doc/odt ou PDF)
-* Onde/quando aplicar 
-> ##### Estudar e explicar artigo que aplique o método de mineração de dados/machine learning escolhido
-* exemplo de uso/aplicação 
-> ##### Implementar algoritmo básico de exemplo obtido na literatura (enviar código executável junto do trabalho com detalhamento de explicação para uso passo a passo)
-b) Aplicação de data mining/machine learning nos dados do trabalho 
-* definir conjunto de dados relevante para o processo
-* proposta deve ser aprovada pelo professor (deve ser enviada para avaliação até 72 hora antes da entrega da atividade)
-
-Referência: http://scikit-learn.org/stable/index.html
-<br>
-Referências adicionais:
-Scikit learning Map : http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
-Machine learning in Python with scikit-learn: https://www.youtube.com/playlist?list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A
-
-
 [Mineração de dados em PDF](https://github.com/luizadealencar/BD2/blob/f9eaad6366f17f444e3419273169472103ae1d7a/Data%20Mining.pdf)
+<br>
 [Mineração de dados no COLAB](https://colab.research.google.com/drive/1XTvMnCrGsaCgdBGnddfvYCSZ7CV2bQ3_?usp=sharing)
+<br>
 [Mineração de dados em IPYNB](https://github.com/luizadealencar/BD2/blob/3916ed4909d537b8206448c7b95e1ac683799f0e/mineracao_caged.ipynb)
-
-
 
 ### 12 CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
 
