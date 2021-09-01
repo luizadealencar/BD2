@@ -11,23 +11,23 @@ David Marques<br>
 Leonardo Sena<br>
 Luiza de Alencar<br>
 
-### 2	Escolha da base de dados e explicação sobre informações relacionadas <br>
+### 2	BASE DE DADOS E INFORMAÇÕES <br>
 CAGED <br>
 Admissão e Dispensa dos Empregados do ES. <br>
 A planilha mostra as admissões e demissões do estado do Espírito Santo, mostrando os cargos, as horas contratuais, o salário, se foi admitido ou demitido, e informações pessoais como idade, sexo, raça, se possui alguma deficiência, e de qual cidade é. Os anos contabilizados é de 2019 até agosto de 2020. <br>
 
-### 3 Fast Immersion Canvas <br>
+### 3 FAST IMMERSION CANVAS <br>
 ![alt text](https://github.com/luizadealencar/BD2/blob/main/Fast%20Immersion%20Canvas.png)
 
 
-### 4 Fast Modelling Canvas
+### 4 FAST MODELLING CANVAS
 ![alt text](https://github.com/luizadealencar/BD2/blob/803f37f47aa4bfafbe166f9ec55b6f01f6828d57/Fast%20Modelling%20Canvas.png)
 
-### 5 Fast EDA e PPD Canvas
+### 5 FAST EDA E PPD CANVAS
 ![alt text](https://github.com/luizadealencar/BD2/blob/6ed027ac96f27a5038311b448e8e390b3c300164/PPD.png)
 [Collab familiarização com a base de dados](https://colab.research.google.com/drive/1-0cFi4NeX6exUe-B8O43pn5n6eMHtC5r?usp=sharing)
 
-### 6 Mapa de ETL
+### 6 MAPA DE ETL
 
 - Redução da base de dados sob o critério de municípios, dividimos a base em dois arquivos: CAGED_GV, referente aos municípios da grande Vitória, e outro com os demais municípios, afim de agilizar o processamento dos dados. 
 - Neste ETL foi realizado um trim de todos os campos de texto e setado os valores iguais a "" (string vazia) para null
@@ -165,7 +165,7 @@ where dim_jnk_person_charac.desc_raca LIKE 'Preta'
 and dim_jnk_person_charac.desc_instr LIKE 'Médio Completo'
 ```
 
-### 10 Backup do Banco de Dados<br>
+### 10 BACKUP DO BANCO DE DADOS<br>
 #### a) Tempo
 ![PG_DUMP_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_dump_time)
 
