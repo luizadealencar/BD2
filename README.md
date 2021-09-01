@@ -165,7 +165,7 @@ where dim_jnk_person_charac.desc_raca LIKE 'Preta'
 and dim_jnk_person_charac.desc_instr LIKE 'Médio Completo'
 ```
 
-#### 10 Backup do Banco de Dados<br>
+### 10 Backup do Banco de Dados<br>
 #### a) Tempo
 ![PG_DUMP_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_dump_time)
 
