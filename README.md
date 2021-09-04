@@ -186,11 +186,11 @@ and dim_jnk_person_charac.desc_instr LIKE 'Médio Completo'
 ![PG_RESTORE_TIME](https://github.com/luizadealencar/BD2/blob/main/pg_restore_sql_time.png)
 
 ### 11 MINERAÇÃO DE DADOS
-[Mineração de dados em PDF](https://github.com/luizadealencar/BD2/blob/f9eaad6366f17f444e3419273169472103ae1d7a/Data%20Mining.pdf)
+[Mineração de dados em PDF](https://github.com/luizadealencar/BD2/blob/43903ac14a7cb34e30956e4ee76e3d25f6fa22c8/Mineracao.pdf)
 <br>
-[Mineração de dados no COLAB](https://colab.research.google.com/drive/1XTvMnCrGsaCgdBGnddfvYCSZ7CV2bQ3_?usp=sharing)
+[Mineração de dados no COLAB](https://colab.research.google.com/drive/1XTvMnCrGsaCgdBGnddfvYCSZ7CV2bQ3_?usp=sharing#scrollTo=8jzyiFqG-jof)
 <br>
-[Mineração de dados em IPYNB](https://github.com/luizadealencar/BD2/blob/3916ed4909d537b8206448c7b95e1ac683799f0e/mineracao_caged.ipynb)
+[Mineração de dados em IPYNB]()
 
 ### 12 CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
 
