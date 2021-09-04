@@ -190,7 +190,7 @@ and dim_jnk_person_charac.desc_instr LIKE 'Médio Completo'
 <br>
 [Mineração de dados no COLAB](https://colab.research.google.com/drive/1XTvMnCrGsaCgdBGnddfvYCSZ7CV2bQ3_?usp=sharing#scrollTo=8jzyiFqG-jof)
 <br>
-[Mineração de dados em IPYNB]()
+[Mineração de dados em IPYNB](https://github.com/luizadealencar/BD2/blob/a67f2daa6ee8405a764a75861e69cac3fc3ff2b6/mineracao_caged.ipynb)
 
 ### 12 CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
 
