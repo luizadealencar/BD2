@@ -85,10 +85,14 @@ Utilizamos o tipo de índice B-TREE para realizar filtros com os valores das col
 Consulta
 ``` sql
 select * from fato_registro 
-inner join dim_jnk_person_charac on fato_registro.dim_jnk_person_charac = dim_jnk_person_charac.dim_jnk_person_charac
-inner join dim_jnk_locale on fato_registro.dim_jnk_locale_cod = dim_jnk_locale.dim_jnk_locale_cod
-inner join dim_date on fato_registro.dim_date_cod = dim_date.dim_date_cod
-inner join dim_jnk_caged on fato_registro.dim_jnk_caged_cod = dim_jnk_caged.dim_jnk_caged_cod
+inner join dim_jnk_person_charac 
+on fato_registro.dim_jnk_person_charac = dim_jnk_person_charac.dim_jnk_person_charac
+inner join dim_jnk_locale 
+on fato_registro.dim_jnk_locale_cod = dim_jnk_locale.dim_jnk_locale_cod
+inner join dim_date 
+on fato_registro.dim_date_cod = dim_date.dim_date_cod
+inner join dim_jnk_caged 
+on fato_registro.dim_jnk_caged_cod = dim_jnk_caged.dim_jnk_caged_cod
 where dim_jnk_caged.horascontratuais = 40 
 and dim_date."year" = 2019
 and dim_jnk_locale.municipio LIKE 'Vitoria'
