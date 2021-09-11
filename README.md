@@ -203,5 +203,5 @@ and dim_jnk_person_charac.desc_instr LIKE 'Médio Completo'
 #### c) Modelo Pecha Kucha(Apresentação com tempo de  6m40s) 
 #### OBS: Esta é uma atividade de grande relevância no contexto do trabalho. Mantenha o foco nos principais resultados.
 
-![pecha cutcha](https://github.com/luizadealencar/BD2/blob/main/pechacutcha.mp4)
-![slide pecha cutcha](https://docs.google.com/presentation/d/1_PMxMlyCcGCT4I-UMvkFruCmbVdRIVckV9efVVigRPM/edit?usp=sharing)
+Video: https://github.com/luizadealencar/BD2/blob/main/pechacutcha.mp4
+Slide: https://docs.google.com/presentation/d/1_PMxMlyCcGCT4I-UMvkFruCmbVdRIVckV9efVVigRPM/edit?usp=sharing
