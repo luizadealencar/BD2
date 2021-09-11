@@ -202,3 +202,5 @@ and dim_jnk_person_charac.desc_instr LIKE 'Médio Completo'
 #### b) Criação de Slides para apresentação dos resultados provenientes do banco de dados OLAP desenvolvido (CANVAS + NOTEBOOKS E CONCLUSÕES)
 #### c) Modelo Pecha Kucha(Apresentação com tempo de  6m40s) 
 #### OBS: Esta é uma atividade de grande relevância no contexto do trabalho. Mantenha o foco nos principais resultados.
+
+![pecha cutcha](https://github.com/luizadealencar/BD2/blob/main/pechacutcha.mp4)
